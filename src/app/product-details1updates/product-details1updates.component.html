@@ -8,13 +8,13 @@
   <div class="column-layout content">
     <div class="column-layout group">
       <div class="row-layout group_1">
-        <a target="_self" class="igx-typography__body-2 hyperlink">
+        <a target="_self" routerLink="/home" class="igx-typography__body-2 hyperlink">
           Home
         </a>
         <p class="igx-typography__body-2 text_1">
           /
         </p>
-        <a target="_self" class="igx-typography__body-2 hyperlink">
+        <a target="_self" routerLink="/all-products" class="igx-typography__body-2 hyperlink">
           Auto Body Parts
         </a>
         <p class="igx-typography__body-2 text_1">
@@ -37,20 +37,22 @@
         </p>
       </div>
       <div class="row-layout group_2">
+        <div class="row-layout images">
+          <div class="column-layout thumbs">
+            <div class="row-layout thumb-2"></div>
+            <div class="row-layout thumb-1"></div>
+            <div class="row-layout thumb"></div>
+          </div>
+          <div class="row-layout product-image">
+            <img src="/assets/Alternator1.jpg" class="large-image" />
+          </div>
+        </div>
         <div class="column-layout group_3">
-          <div class="group_4"></div>
-          <div class="group_5"></div>
-          <div class="group_6"></div>
-        </div>
-        <div class="row-layout group_7">
-          <img src="/assets/Alternator1.jpg" class="image_1" />
-        </div>
-        <div class="column-layout group_8">
           <h5 class="content_1">
             Gold Alternator
 
           </h5>
-          <div class="row-layout group_9">
+          <div class="row-layout group_4">
             <igc-rating [(ngModel)]="value" size="medium" class="rating"></igc-rating>
             <a target="_self" class="igx-typography__body-2 hyperlink_2">
               (2 customer reviews)
@@ -69,7 +71,7 @@
             Generic Brand alternators are engineered to provide the amp output necessary to power today’s vehicles. Every unit is 100% NEW (not remanufactured) and made with proprietary components and processes to ensure maximum life and performance.
           </p>
           <igx-badge type="success" value="IN STOCK" class="badge"></igx-badge>
-          <div class="row-layout group_10">
+          <div class="row-layout group_5">
             <igx-select type="box" value="1" class="select">
               <igx-select-item value="1" [selected]="true">
                 1
@@ -111,12 +113,12 @@
           </button>
         </div>
       </div>
-      <div class="row-layout group_11">
-        <div class="column-layout group_12">
+      <div class="row-layout group_6">
+        <div class="column-layout group_7">
           <h5 class="h5">
             Product Specifications
           </h5>
-          <div class="row-layout group_13">
+          <div class="row-layout group_8">
             <p class="text_5">
               Part #  
             </p>
@@ -124,7 +126,7 @@
               ABC123-456789
             </p>
           </div>
-          <div class="row-layout group_14">
+          <div class="row-layout group_9">
             <p class="text_5">
               SKU #  
             </p>
@@ -132,7 +134,7 @@
               740988
             </p>
           </div>
-          <div class="row-layout group_13">
+          <div class="row-layout group_8">
             <p class="text_5">
               Weight
             </p>
@@ -140,7 +142,7 @@
               10 lbs
             </p>
           </div>
-          <div class="row-layout group_14">
+          <div class="row-layout group_9">
             <p class="text_5">
               Type
             </p>
@@ -148,7 +150,7 @@
               Alternator
             </p>
           </div>
-          <div class="row-layout group_13">
+          <div class="row-layout group_8">
             <p class="text_5">
               System Voltage  
             </p>
@@ -156,7 +158,7 @@
               12 V
             </p>
           </div>
-          <div class="row-layout group_14">
+          <div class="row-layout group_9">
             <p class="text_6">
               Pulleys Included  
             </p>
@@ -165,11 +167,11 @@
             </p>
           </div>
         </div>
-        <div class="column-layout group_15">
+        <div class="column-layout group_10">
           <h5 class="h5_1">
             Product Description
           </h5>
-          <div class="row-layout group_16">
+          <div class="row-layout group_11">
             <igx-icon class="icon">
               check_circle
             </igx-icon>
@@ -177,7 +179,7 @@
               Key components are greased to help with long term reliability in harsh conditions
             </p>
           </div>
-          <div class="row-layout group_16">
+          <div class="row-layout group_11">
             <igx-icon class="icon">
               check_circle
             </igx-icon>
@@ -185,7 +187,7 @@
               Every unit is built with 100% NEW components that are designed to meet the highest quality standards
             </p>
           </div>
-          <div class="row-layout group_16">
+          <div class="row-layout group_11">
             <igx-icon class="icon">
               check_circle
             </igx-icon>
@@ -201,10 +203,10 @@
       <h5 class="h5_2">
         Customers Also Purchased
       </h5>
-      <div class="row-layout group_17">
+      <div class="row-layout group_12">
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Alternator1.jpg" class="image_2" />
+            <img src="/assets/Alternator1.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -215,7 +217,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -233,7 +235,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_91150104_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_91150104_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -244,7 +246,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value1" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -262,7 +264,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_39703145_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_39703145_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -273,7 +275,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value2" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -291,7 +293,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_20993125_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_20993125_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -302,7 +304,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value3" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -320,7 +322,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_12011807_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_12011807_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -331,7 +333,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value2" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -349,7 +351,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_114068560_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_114068560_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -360,7 +362,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="content_2">
@@ -378,7 +380,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_51128759_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_51128759_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -389,7 +391,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value3" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="h6">
@@ -407,7 +409,7 @@
         </igx-card>
         <igx-card class="card">
           <igx-card-media height="160px">
-            <img src="/assets/Depositphotos_63371615_l-2015.jpg" class="image_2" />
+            <img src="/assets/Depositphotos_63371615_l-2015.jpg" class="image_1" />
           </igx-card-media>
           <igx-card-header>
             <h3 igxCardHeaderTitle>
@@ -418,7 +420,7 @@
             </h5>
           </igx-card-header>
           <igx-card-content class="body-content">
-            <div class="row-layout group_18">
+            <div class="row-layout group_13">
               <igc-rating [(ngModel)]="value1" size="small" class="rating"></igc-rating>
             </div>
             <h6 class="h6">
@@ -438,7 +440,7 @@
     </div>
   </div>
   <div class="row-layout sitemap">
-    <div class="column-layout group_19">
+    <div class="column-layout group_14">
       <p class="igx-typography__subtitle-2 content_1">
         Contact Us
       </p>
@@ -455,7 +457,7 @@
         1-234-567-8901
       </p>
     </div>
-    <div class="column-layout group_20">
+    <div class="column-layout group_15">
       <p class="igx-typography__subtitle-2 content_1">
         Help
       </p>
@@ -472,7 +474,7 @@
         Shipping &amp; Returns
       </p>
     </div>
-    <div class="column-layout group_20">
+    <div class="column-layout group_15">
       <p class="igx-typography__subtitle-2 content_1">
         About Us
       </p>
@@ -489,7 +491,7 @@
         Reviews
       </p>
     </div>
-    <div class="column-layout group_20">
+    <div class="column-layout group_15">
       <p class="igx-typography__subtitle-2 content_1">
         Services
       </p>
@@ -506,7 +508,7 @@
         Find a Repair Shop
       </p>
     </div>
-    <div class="column-layout group_20">
+    <div class="column-layout group_15">
       <p class="igx-typography__subtitle-2 content_1">
         Blog
       </p>
@@ -528,7 +530,7 @@
     <p class="igx-typography__body-2 text_10">
       Copyright ©2021 AutoShop.com, Inc. All Rights Reserved.
     </p>
-    <div class="row-layout group_21">
+    <div class="row-layout group_16">
       <p class="igx-typography__body-2 text_11">
         Terms of Use
       </p>
