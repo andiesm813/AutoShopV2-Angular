@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { IgxSelectModule, IgxInputGroupModule, IgxButtonModule, IgxRippleModule, IgxCardModule, IgxIconModule, IgxListModule, IgxToggleModule, IgxDropDownModule, IgxButtonGroupModule, IgcFormsModule, IgxBadgeModule, IgxAvatarModule } from '@infragistics/igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { AllProductsComponent } from './all-products/all-products.component';
+import { ProductDetails1UpdatesComponent } from './product-details1-updates/product-details1-updates.component';
+import { ProductDetails1UpdatesComponent } from './product-details1updates/product-details1updates.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
@@ -15,6 +17,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     AppComponent,
     HomeComponent,
     AllProductsComponent,
+    ProductDetails1UpdatesComponent,
     ProductDetailsComponent,
     ShoppingCartComponent
   ],
